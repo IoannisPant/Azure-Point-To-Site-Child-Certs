@@ -20,5 +20,5 @@ $cert = New-SelfSignedCertificate -Type Custom -KeySpec Signature `
 <li>Note the thumbprint of the root certificate, use the <a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-certificates-point-to-site"> Microsoft documentantion </a> to export the certificate and import it on Azure Portal.</li>
 
 <li>Download the Azure VPN Client from Azure Portal.</li>
-<li>Modify the script on your needs and execute the PowerShell script to generate multiple child certificates.</li>
+<li>Modify the script on your needs and execute it to generate multiple child certificates.</li>
 </ul>
